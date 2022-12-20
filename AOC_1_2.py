@@ -1,4 +1,4 @@
-print("Advent of Code Day 1 Exercise 1")
+print("Advent of Code Day 1 Exercise 2")
 
 # Set local variables
 y = int(0)
@@ -6,7 +6,7 @@ calories = int(0)
 count = int(0)
 calorielist = []
 
-f = open("/Users/pauldobe/AOC_22/input_file", "r")
+f = open("/Users/pauldobe/AOC_22/input_file_day_1", "r")
 for x in f:
     if x != "\n":
         y = y + int(x)
@@ -22,3 +22,4 @@ print(calories)
 
 f.close
 
+ß

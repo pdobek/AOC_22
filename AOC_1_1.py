@@ -4,7 +4,7 @@ print("Advent of Code Day 1 Exercise 1")
 y = int(0)
 maxy = int(0)
 
-f = open("/Users/pauldobe/AOC_22/input_file", "r")
+f = open("/Users/pauldobe/AOC_22/input_file_day_1", "r")
 for x in f:
     if x != "\n":
         y = y + int(x)
